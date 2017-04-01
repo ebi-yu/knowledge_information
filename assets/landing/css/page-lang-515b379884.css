@@ -1,0 +1,81 @@
+.landing-page .app-header {
+	/* background-image: url("../images/bg/people-notes-meeting-team.jpg"); */
+}
+.app-btn {
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+}
+div.container-fluid.app-content-b div.feature {
+	background-color:rgba(0,0,0,0.50);
+	padding-top: 50px;
+	padding-bottom: 100px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.landing-page .app-content-b {
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	margin: 0;
+	padding: 0;
+}
+.landing-page .app-content-b li {
+	font-size: 20px;
+}
+.landing-page .app-content-b.share_knowledge {
+	background-image: url("../images/bg/4e9b10b3a7d9f761dc381b35104ba4f2_s.jpg");
+}
+.landing-page .app-content-b.self_hosted {
+	background-image: url("../images/bg/4e315fa12093df513d663cfcbc095d4d_s.jpg");
+}
+.landing-page .app-content-b.opensource {
+	background-image: url("../images/bg/60747733b9310319351c3db84e57acfb_s.jpg");
+}
+.landing-page .app-content-b.setup {
+	background-image: url("../images/bg/ac4aecda3ead08e17c34984619748059_s.jpg");
+}
+.landing-page .app-content-b.find_knowledge {
+	background-image: url("../images/bg/8cb3b5f98951ea07f30902679eabccb9_s.jpg");
+}
+.landing-page .app-content-b.select_target {
+	background-image: url("../images/bg/b00f0a3e89b04e5d6d175e9c3bc92ba5_s.jpg");
+}
+.landing-page .app-content-b.social {
+	background-image: url("../images/bg/2ffd7b1f3cb63a52f9418ba6bf6ad65a_s.jpg");
+}
+.landing-page .app-content-b.livedemo li {
+	font-size: 16px;
+}
+.landing-page .app-content-b.infomation {
+	background-color: silver;
+}
+.sectioninfo {
+	font-size: 20px;
+}
+
+.contact-us-description a {
+	color: white;
+	font-size: 32px;
+}
+
+
+@media screen and (max-width: 600px) {
+.slideshare {
+    height: 400px;
+}
+.slideshare iframe {
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 478px;
+  max-height: 400px;
+}
+}
+
+

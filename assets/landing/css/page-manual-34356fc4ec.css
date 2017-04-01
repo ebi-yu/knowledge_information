@@ -1,0 +1,998 @@
+div.oembedall-githubrepos  {
+    border: 1px solid #DDD;
+    border-radius: 4px 4px 4px 4px;
+    list-style-type: none;
+    margin: 0 0 10px;
+    padding: 8px 10px 0;
+    font: 13.34px/1.4 helvetica,arial,freesans,clean,sans-serif;
+    /*background: url("http://github.com/images/icons/public.png") no-repeat scroll 6px 9px transparent;*/
+    width : 452px;
+    background-color:#fff;
+}
+
+div.oembedall-githubrepos .oembedall-body {
+    background: -moz-linear-gradient(center top , #FAFAFA, #EFEFEF) repeat scroll 0 0 transparent;
+    background:  -webkit-gradient(linear,left top,left bottom,from(#FAFAFA),to(#EFEFEF));;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top: 1px solid #EEE;
+    margin-left: -10px;
+    margin-top: 8px;
+    padding: 5px 10px;
+    width: 100%;
+}
+
+div.oembedall-githubrepos h3 {
+    font-size: 14px;
+    margin: 0;
+    padding-left: 18px;
+    white-space: nowrap;
+}
+
+div.oembedall-githubrepos p.oembedall-description {
+    color: #444;
+    font-size: 12px;
+    margin: 0 0 3px;
+}
+
+div.oembedall-githubrepos p.oembedall-updated-at {
+    color: #888;
+    font-size: 11px;
+    margin: 0;
+}
+
+div.oembedall-githubrepos ul.oembedall-repo-stats {
+    /*background: url("http://github.com/images/modules/pagehead/actions_fade.png") no-repeat scroll 0 0 transparent;*/
+    border: medium none;
+    float: right;
+    font-size: 11px;
+    font-weight: bold;
+    padding-left: 15px;
+    position: relative;
+    z-index: 5;
+    margin:0;
+}
+div.oembedall-githubrepos ul.oembedall-repo-stats li {
+    border: medium none;
+    color: #666;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 !important;
+}
+div.oembedall-githubrepos ul.oembedall-repo-stats li a {
+    background-color: transparent;
+    background-position: 5px -2px;
+    border: medium none;
+    color: #666 !important;
+    background-position: 5px -2px;
+    background-repeat: no-repeat;
+    border-left: 1px solid #DDD;
+    display: inline-block;
+    height: 21px;
+    line-height: 21px;
+    padding: 0 5px 0 23px;
+}
+
+
+div.oembedall-githubrepos ul.oembedall-repo-stats li:first-child a {
+    border-left: medium none;
+    margin-right: -3px;
+}
+div.oembedall-githubrepos ul.oembedall-repo-stats li a:hover {
+    background: none no-repeat scroll 5px -27px #4183C4;
+    color: #FFFFFF !important;
+    text-decoration: none;
+}
+div.oembedall-githubrepos ul.oembedall-repo-stats li:first-child a:hover {
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+ul.oembedall-repo-stats li:last-child a:hover {
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+div.oembedall-githubrepos ul.oembedall-repo-stats li.oembedall-watchers a {
+    /*background-image: url("http://github.com/images/modules/pagehead/repostat_watchers.png");*/
+}
+
+div.oembedall-githubrepos ul.oembedall-repo-stats li.oembedall-forks a {
+    /*background-image: url("http://github.com/images/modules/pagehead/repostat_forks.png");*/
+}
+
+
+span.oembedall-closehide{
+  background-color: #aaa;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 3px;
+}
+
+div.oembedall-container {
+ margin-top : 5px;
+ text-align: left;
+}
+
+.oembedall-ljuser {
+    font-weight: bold;
+}
+
+.oembedall-ljuser img {
+    vertical-align: bottom;
+    border: 0;
+    padding-right: 1px;
+}
+
+.oembedall-stoqembed {
+    border-bottom: 1px dotted #999999;
+    float: left;
+    overflow: hidden;
+    padding: 11px 0;
+    width: 730px;
+    line-height: 1;
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #000000;
+    font-family: Arial,Liberation Sans,DejaVu Sans,sans-serif;
+    font-size: 80%;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.oembedall-stoqembed a {
+    color: #0077CC;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.oembedall-stoqembed a:hover {
+    text-decoration: underline;
+}
+.oembedall-stoqembed a:visited {
+    color: #4A6B82;
+}
+
+.oembedall-stoqembed h3 {
+    font-family: Trebuchet MS,Liberation Sans,DejaVu Sans,sans-serif;
+    font-size: 130%;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.oembedall-stoqembed .oembedall-reputation-score {
+    color: #444444;
+    font-size: 120%;
+    font-weight: bold;
+    margin-right: 2px;
+}
+
+
+.oembedall-stoqembed .oembedall-user-info {
+    height: 35px;
+    width: 185px;
+}
+.oembedall-stoqembed .oembedall-user-info .oembedall-user-gravatar32 {
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+.oembedall-stoqembed .oembedall-user-info .oembedall-user-details {
+    float: left;
+    margin-left: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 145px;
+}
+
+.oembedall-stoqembed .oembedall-question-hyperlink {
+    font-weight: bold;
+}
+
+.oembedall-stoqembed .oembedall-stats {
+    background: none repeat scroll 0 0 #EEEEEE;
+    margin: 0 0 0 7px;
+    padding: 4px 7px 6px;
+    width: 58px;
+}
+.oembedall-stoqembed .oembedall-statscontainer {
+    float: left;
+    margin-right: 8px;
+    width: 86px;
+}
+
+.oembedall-stoqembed .oembedall-votes {
+    color: #555555;
+    padding: 0 0 7px;
+    text-align: center;
+}
+
+.oembedall-stoqembed .oembedall-vote-count-post {
+    display: block;
+    font-size: 240%;
+    color: #808185;
+    display: block;
+    font-weight: bold;
+}
+
+
+.oembedall-stoqembed .oembedall-views {
+    color: #999999;
+    padding-top: 4px;
+    text-align: center;
+}
+
+.oembedall-stoqembed .oembedall-status {
+    margin-top: -3px;
+    padding: 4px 0;
+    text-align: center;
+    background: none repeat scroll 0 0 #75845C;
+    color: #FFFFFF;
+}
+
+.oembedall-stoqembed .oembedall-status strong {
+    color: #FFFFFF;
+    display: block;
+    font-size: 140%;
+}
+
+
+.oembedall-stoqembed .oembedall-summary {
+    float: left;
+    width: 635px;
+}
+
+.oembedall-stoqembed .oembedall-excerpt {
+    line-height: 1.2;
+    margin: 0;
+    padding: 0 0 5px;
+}
+
+.oembedall-stoqembed .oembedall-tags {
+    float: left;
+    line-height: 18px;
+}
+.oembedall-stoqembed .oembedall-tags a:hover {
+    text-decoration: none;
+}
+
+.oembedall-stoqembed .oembedall-post-tag {
+    background-color: #E0EAF1;
+    border-bottom: 1px solid #3E6D8E;
+    border-right: 1px solid #7F9FB6;
+    color: #3E6D8E;
+    font-size: 90%;
+    line-height: 2.4;
+    margin: 2px 2px 2px 0;
+    padding: 3px 4px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.oembedall-stoqembed .oembedall-post-tag:hover {
+    background-color: #3E6D8E;
+    border-bottom: 1px solid #37607D;
+    border-right: 1px solid #37607D;
+    color: #E0EAF1;
+}
+
+
+.oembedall-stoqembed .oembedall-fr {
+    float: right;
+}
+
+.oembedall-stoqembed .oembedall-statsarrow {
+    background-image: url("http://cdn.sstatic.net/stackoverflow/img/sprites.png?v=3");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: 0 -435px;
+    float: right;
+    height: 13px;
+    margin-top: 12px;
+    width: 7px;
+}
+
+.oembedall-facebook1 {
+    border: #1A3C6C solid 1px;
+    padding:0px;
+    font: 13.34px/1.4 verdana;
+    width : 500px;
+    
+}
+
+.oembedall-facebook2 {
+    background-color: #627add;    
+}
+.oembedall-facebook2 a {
+  color: #e8e8e8;
+  text-decoration:none;
+}
+
+.oembedall-facebookBody {
+  background-color: #fff;
+  vertical-align: top;
+  padding: 5px;
+}
+
+.oembedall-facebookBody .contents {
+    display: inline-block;
+    width: 100%;
+}
+
+.oembedall-facebookBody div img {
+    float: left;
+    margin-right: 5px;
+}
+
+div.oembedall-lanyard{
+-webkit-box-shadow: none;
+-webkit-transition-delay: 0s;
+-webkit-transition-duration: 0.4000000059604645s;
+-webkit-transition-property: width;
+-webkit-transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+background-attachment: scroll;
+background-clip: border-box;
+background-color: transparent;
+background-image: none;
+background-origin: padding-box;
+border-bottom-width: 0px;
+border-left-width: 0px;
+border-right-width: 0px;
+border-top-width: 0px;
+box-shadow: none;
+color: #112644;
+display: block;
+float: left;
+font-family: 'Trebuchet MS', Trebuchet, sans-serif;
+font-size: 16px;
+height: 253px;
+line-height: 19px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+max-width: none;
+min-height: 0px;
+outline-color: #112644;
+outline-style: none;
+outline-width: 0px;
+overflow-x: visible;
+overflow-y: visible;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+position: relative;
+text-align: left;
+vertical-align: baseline;
+width: 804px;
+}
+
+div.oembedall-lanyard .tagline{
+  font-size: 1.5em;
+}
+
+div.oembedall-lanyard .wrapper{
+  overflow: hidden;
+  clear: both;
+}
+div.oembedall-lanyard .split{
+  float: left;
+display: inline;
+
+}
+
+div.oembedall-lanyard .prominent-place .flag:link, div.oembedall-lanyard .prominent-place .flag:visited,div.oembedall-lanyard .prominent-place .flag:hover
+  ,div.oembedall-lanyard .prominent-place .flag:focus,div.oembedall-lanyard .prominent-place .flag:active {
+float: left;
+display: block;
+width: 48px;
+height: 48px;
+position: relative;
+top: -5px;
+margin-right: 10px;
+}
+
+div.oembedall-lanyard .place-context {
+font-size: 0.889em;
+}
+
+div.oembedall-lanyard .prominent-place .sub-place {
+display: block;
+}
+
+div.oembedall-lanyard .prominent-place{
+  font-size: 1.125em;
+line-height: 1.1em;
+font-weight: normal;
+
+}
+
+div.oembedall-lanyard .main-date{
+color: #8CB4E0;
+font-weight: bold;
+line-height: 1.1;
+
+}
+
+div.oembedall-lanyard .first{
+  margin-left: 0;
+  width: 48.57%;
+margin: 0 0 0 2.857%;
+
+}
+
+/*
+
+Darkula color scheme from the JetBrains family of IDEs
+
+*/
+
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #2b2b2b;
+  -webkit-text-size-adjust: none;
+}
+
+.hljs,
+.hljs-tag,
+.hljs-title,
+.css .hljs-rule,
+.css .hljs-value,
+.aspectj .hljs-function,
+.css .hljs-function .hljs-preprocessor,
+.hljs-pragma {
+  color: #bababa;
+}
+
+.hljs-strongemphasis,
+.hljs-strong,
+.hljs-emphasis {
+  color: #a8a8a2;
+}
+
+.hljs-bullet,
+.hljs-blockquote,
+.hljs-horizontal_rule,
+.hljs-number,
+.hljs-regexp,
+.alias .hljs-keyword,
+.hljs-literal,
+.hljs-hexcolor {
+  color: #6896ba;
+}
+
+.hljs-tag .hljs-value,
+.hljs-code,
+.css .hljs-class,
+.hljs-class .hljs-title:last-child {
+  color: #a6e22e;
+}
+
+.hljs-link_url {
+  font-size: 80%;
+}
+
+.hljs-emphasis,
+.hljs-strongemphasis,
+.hljs-class .hljs-title:last-child,
+.hljs-typename {
+  font-style: italic;
+}
+
+.hljs-keyword,
+.ruby .hljs-class .hljs-keyword:first-child,
+.ruby .hljs-function .hljs-keyword,
+.hljs-function,
+.hljs-change,
+.hljs-winutils,
+.hljs-flow,
+.nginx .hljs-title,
+.tex .hljs-special,
+.hljs-header,
+.hljs-attribute,
+.hljs-symbol,
+.hljs-symbol .hljs-string,
+.hljs-tag .hljs-title,
+.hljs-value,
+.alias .hljs-keyword:first-child,
+.css .hljs-tag,
+.css .unit,
+.css .hljs-important {
+  color: #cb7832;
+}
+
+.hljs-function .hljs-keyword,
+.hljs-class .hljs-keyword:first-child,
+.hljs-aspect .hljs-keyword:first-child,
+.hljs-constant,
+.hljs-typename,
+.css .hljs-attribute {
+  color: #cb7832;
+}
+
+.hljs-variable,
+.hljs-params,
+.hljs-class .hljs-title,
+.hljs-aspect .hljs-title {
+  color: #b9b9b9;
+}
+
+.hljs-string,
+.css .hljs-id,
+.hljs-subst,
+.hljs-type,
+.ruby .hljs-class .hljs-parent,
+.hljs-built_in,
+.django .hljs-template_tag,
+.django .hljs-variable,
+.smalltalk .hljs-class,
+.django .hljs-filter .hljs-argument,
+.smalltalk .hljs-localvars,
+.smalltalk .hljs-array,
+.hljs-attr_selector,
+.hljs-pseudo,
+.hljs-addition,
+.hljs-stream,
+.hljs-envvar,
+.apache .hljs-tag,
+.apache .hljs-cbracket,
+.tex .hljs-command,
+.hljs-prompt,
+.hljs-link_label,
+.hljs-link_url,
+.hljs-name {
+  color: #e0c46c;
+}
+
+.hljs-comment,
+.hljs-annotation,
+.hljs-pi,
+.hljs-doctype,
+.hljs-deletion,
+.hljs-shebang,
+.apache .hljs-sqbracket,
+.tex .hljs-formula {
+  color: #7f7f7f;
+}
+
+.hljs-decorator {
+  color: #bab429;
+}
+
+.coffeescript .javascript,
+.javascript .xml,
+.tex .hljs-formula,
+.xml .javascript,
+.xml .vbscript,
+.xml .css,
+.xml .hljs-cdata,
+.xml .php,
+.php .xml {
+  opacity: 0.5;
+}
+
+.markdown a {
+	/* color: #4183C4; */
+	/* color: #18bc9c; */
+}
+
+.markdown a.absent {
+	/* color: #cc0000; */
+}
+
+.markdown a.anchor {
+	display: block;
+	padding-left: 30px;
+	margin-left: -30px;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+	margin: 20px 0 10px;
+	padding: 0;
+	padding-bottom: 8px;
+	font-weight: bold;
+	-webkit-font-smoothing: antialiased;
+	cursor: text;
+	position: relative;
+}
+
+.markdown h1:hover a.anchor,
+.markdown h2:hover a.anchor,
+.markdown h3:hover a.anchor,
+.markdown h4:hover a.anchor,
+.markdown h5:hover a.anchor,
+.markdown h6:hover a.anchor {
+	background: url("../images/para.png") no-repeat
+		10px center;
+	text-decoration: none;
+}
+
+.markdown h1 tt,
+.markdown h1 code {
+	font-size: inherit;
+}
+
+.markdown h2 tt,
+.markdown h2 code {
+	font-size: inherit;
+}
+
+.markdown h3 tt,
+.markdown h3 code {
+	font-size: inherit;
+}
+
+.markdown h4 tt,
+.markdown h4 code {
+	font-size: inherit;
+}
+
+.markdown h5 tt,
+.markdown h5 code {
+	font-size: inherit;
+}
+
+.markdown h6 tt,
+.markdown h6 code {
+	font-size: inherit;
+}
+
+.markdown h1 {
+	font-size: 28px;
+	color: black;
+}
+
+.markdown h2 {
+	font-size: 24px;
+	margin-top: 40px;
+	border-bottom: 1px solid #dddddd;
+	color: black;
+}
+
+.markdown h3 {
+	font-size: 18px;
+}
+
+.markdown h4 {
+	font-size: 16px;
+}
+
+.markdown h5 {
+	font-size: 14px;
+}
+
+.markdown h6 {
+	color: #777777;
+	font-size: 14px;
+}
+
+.markdown p,
+.markdown blockquote,
+.markdown dl,
+.markdown table{
+	margin: 15px 0;
+}
+
+.markdown ul,
+.markdown ol,
+.markdown li {}
+
+.markdown p,
+.markdown blockquote,
+.markdown li,
+.markdown dt,
+.markdown table{
+	line-height: 2.0em;
+}
+
+.markdown hr {
+	background: transparent
+		url("../images/dirty-shade.png") repeat-x 0 0;
+	border: 0 none;
+	color: #cccccc;
+	height: 4px;
+	padding: 0;
+}
+
+.markdown >h2:first-child {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.markdown >h1:first-child {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.markdown >h1:first-child+h2 {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.markdown >h3:first-child,
+.markdown >h4:first-child,
+.markdown >h5:first-child,
+.markdown >h6:first-child
+	{
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.markdown a:first-child h1,
+.markdown a:first-child h2,
+.markdown a:first-child h3,
+.markdown a:first-child h4,
+.markdown a:first-child h5,
+.markdown a:first-child h6 {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.markdown h1 p,
+.markdown h2 p,
+.markdown h3 p,
+.markdown h4 p,
+.markdown h5 p,
+.markdown h6 p {
+	margin-top: 0;
+}
+
+.markdown li p.first {
+	display: inline-block;
+}
+
+.markdown ul,
+.markdown ol {
+	padding-left: 30px;
+}
+
+.markdown ul :first-child,
+.markdown ol :first-child {
+	margin-top: 0;
+}
+
+.markdown ul :last-child,
+.markdown ol :last-child {
+	margin-bottom: 0;
+}
+
+.markdown dl {
+	padding: 0;
+}
+
+.markdown dl dt {
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+	padding: 0;
+	margin: 15px 0 5px;
+}
+
+.markdown dl dt:first-child {
+	padding: 0;
+}
+
+.markdown dl dt>:first-child {
+	margin-top: 0;
+}
+
+.markdown dl dt>:last-child {
+	margin-bottom: 0;
+}
+
+.markdown dl dd {
+	margin: 0 0 15px;
+	padding: 0 15px;
+}
+
+.markdown dl dd>:first-child {
+	margin-top: 0;
+}
+
+.markdown dl dd>:last-child {
+	margin-bottom: 0;
+}
+
+.markdown blockquote {
+	border-left: 4px solid #dddddd;
+	padding: 0 15px;
+	color: #777777;
+}
+
+.markdown blockquote>:first-child {
+	margin-top: 0;
+}
+
+.markdown blockquote>:last-child {
+	margin-bottom: 0;
+}
+
+.markdown table {
+	padding: 0;
+}
+
+.markdown table tr {
+	border-top: 1px solid #cccccc;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+}
+
+.markdown table tr:nth-child(2n) {
+	background-color: #f8f8f8;
+}
+
+.markdown table tr th {
+	font-weight: bold;
+	border: 1px solid #cccccc;
+	text-align: left;
+	margin: 0;
+	padding: 6px 13px;
+}
+
+.markdown table tr td {
+	border: 1px solid #cccccc;
+	text-align: left;
+	margin: 0;
+	padding: 6px 13px;
+}
+
+.markdown table tr th :first-child,
+.markdown table tr td :first-child {
+	margin-top: 0;
+}
+
+.markdown table tr th :last-child,
+.markdown table tr td :last-child {
+	margin-bottom: 0;
+}
+
+.markdown img {
+	max-width: 100%;
+}
+
+.markdown span.frame {
+	display: block;
+	overflow: hidden;
+}
+
+.markdown span.frame>span {
+	border: 1px solid #dddddd;
+	display: block;
+	float: left;
+	overflow: hidden;
+	margin: 13px 0 0;
+	padding: 7px;
+	width: auto;
+}
+
+.markdown span.frame span img {
+	display: block;
+	float: left;
+}
+
+.markdown span.frame span span {
+	clear: both;
+	color: #333333;
+	display: block;
+	padding: 5px 0 0;
+}
+
+.markdown span.align-center {
+	display: block;
+	overflow: hidden;
+	clear: both;
+}
+
+.markdown span.align-center>span {
+	display: block;
+	overflow: hidden;
+	margin: 13px auto 0;
+	text-align: center;
+}
+
+.markdown span.align-center span img {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.markdown span.align-right {
+	display: block;
+	overflow: hidden;
+	clear: both;
+}
+
+.markdown span.align-right>span {
+	display: block;
+	overflow: hidden;
+	margin: 13px 0 0;
+	text-align: right;
+}
+
+.markdown span.align-right span img {
+	margin: 0;
+	text-align: right;
+}
+
+.markdown span.float-left {
+	display: block;
+	margin-right: 13px;
+	overflow: hidden;
+	float: left;
+}
+
+.markdown span.float-left span {
+	margin: 13px 0 0;
+}
+
+.markdown span.float-right {
+	display: block;
+	margin-left: 13px;
+	overflow: hidden;
+	float: right;
+}
+
+.markdown span.float-right>span {
+	display: block;
+	overflow: hidden;
+	margin: 13px auto 0;
+	text-align: right;
+}
+
+.markdown code,
+.markdown tt {
+	margin: 0 2px;
+	padding: 0 5px;
+	border-radius: 3px;
+	word-wrap: break-word;
+}
+
+.markdown pre code {
+	margin: 0;
+	padding: 10px;
+	white-space: pre;
+	border: none;
+}
+
+.markdown .highlight pre {
+	font-size: 13px;
+	line-height: 19px;
+	overflow: auto;
+	padding: 6px 10px;
+	border-radius: 3px;
+}
+
+.markdown pre {
+	background-color: transparent;
+	border: none;
+	font-size: 13px;
+	line-height: 19px;
+	overflow: auto;
+	padding: 6px 10px;
+	border-radius: 3px;
+}
+
+.markdown pre code,
+.markdown pre tt {
+	border: none;
+}
+
+.markdown p > code.hljs { display: inline; }
+
+.emoji-img {
+	height: 20px;
+}
+
