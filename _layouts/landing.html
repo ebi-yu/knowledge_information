@@ -34,6 +34,20 @@
   <link rel="stylesheet" href="/assets/landing/css/page-common-ebd45bb42d.css" />
   <link rel="stylesheet" href="/assets/landing/css/page-index-c50d92399b.css" />
 
+  <style>
+    .landing-page .navbar li a {
+      padding-left: 20px;
+      height: 60px;
+      line-height: 60px;
+    }
+    
+    .landing-page .navbar-affix.affix li a {
+      padding-left: 20px;
+      height: 60px;
+      line-height: 60px;
+    }
+  </style>
+
 </head>
 
 <body class="flat-blue landing-page">
@@ -57,15 +71,15 @@
       </div>
       <div id="navbar" class="navbar-collapse collapse " aria-expanded="true">
         <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a onclick="showAbout();">About</a></li>
-          <li><a href="/manual">Manual</a></li>
+          <li><a href="manual">Manual</a></li>
           <li><a href="https://github.com/support-project/knowledge/releases">Download</a></li>
-          <li><a href="/language">Language</a></li>
         </ul>
       </div>
       <!--/.nav-collapse -->
     </div>
   </nav>
+
+
 
   {{ content }}
 
@@ -83,16 +97,17 @@
   <script src="/assets/landing/js/app.js"></script>
 
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
- 
-  ga('create', 'UA-61641190-1', 'auto');
-  ga('send', 'pageview');
- 
-</script>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-61641190-2', 'auto');
+    ga('send', 'pageview');
+  </script>
 
 
 </body>
