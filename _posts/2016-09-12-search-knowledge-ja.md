@@ -12,11 +12,11 @@ flag: jp
 - 画面上部のナビゲーションバーから、いつでも検索できます
 - 検索したいキーワードを入力し検索してください
 
-#### <ナビゲーションバー>
+#### &lt;ナビゲーションバー&gt;
 
 <img  width="100%" src="/assets/manual/images/header.ja.png" alt="header.ja.pn" />
 
-#### <検索結果>
+#### &lt;検索結果&gt;
 
 <img  width="100%" src="/assets/manual/images/list_search_result.ja.png" alt="header.ja.pnlist_search_result.ja.png" />
 
@@ -27,11 +27,11 @@ flag: jp
 - 右上のアイコンをクリックすると、複合検索に遷移します
 - キーワード検索に組み合わせて、記事の種類や作成者などの検索条件を組み合わせて検索できます
 
-#### <メニュー>
+#### &lt;メニュー&gt;
 
 <img  width="30%" src="/assets/manual/images/menu_search.ja.png" alt="menu_search.ja.png" />
 
-#### <メニュー>
+#### &lt;複合検索&gt;
 
 <img  width="100%" src="/assets/manual/images/search_page.ja.png" alt="search_page.ja.png" />
 
