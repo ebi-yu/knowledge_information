@@ -11,6 +11,15 @@ flag: jp
 
 - ナレッジは、右上の「作成」ボタンから登録します。
 
+#### &lt;作成ボタン&gt;
+
+<img  width="70%" src="/assets/manual/images/header_creare.ja.png" alt="header_creare.ja.png" />
+
+#### &lt;記事編集画面&gt;
+
+<img  width="100%" src="/assets/manual/images/edit_page.ja.png" alt="edit_page.ja.png" />
+
+
 ### 登録するナレッジの種類
 
 - ナレッジ登録画面で一番上に種類があります
