@@ -18,5 +18,6 @@ flag: jp
 
 <img  width="100%" src="/assets/manual/images/slideshow.ja.png" alt="slideshow.ja.png" />
 
+#### &lt;スライドショーを挿入&gt;
 
-
+<img  width="100%" src="/assets/manual/images/slideshow_insert.ja.png" alt="slideshow_insert.ja.png" />
